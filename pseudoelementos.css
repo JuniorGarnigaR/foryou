@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+}
+
+.texto::first-line{
+    color:blue;
+}
+
+form{
+    margin: 100px auto;
+    display: block;
+    background: #555;
+    padding: 20px;
+    width: 50%;
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+}
+
+.formulario::placeholder{
+    color:rgb(51, 6, 65);
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+input::selection{
+    color: cadetblue;
+    background: #555;
+}
+
+
+/* pseudoelemento before */
+.form_text::before{
+    content: "Hola guapo";
+    color: white;
+}
+
+/* pseudoelemento after */
+
+.form_text::after{
+    content: "¿Cómo estás?";
+    color: #fff;
+}

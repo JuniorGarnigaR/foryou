@@ -1,0 +1,19 @@
+*{
+	font-family: Sriracha;
+}
+
+.cont{
+	margin:auto;
+	margin-top: 50px;
+	border: 8px solid black;
+	width: 50%;
+}
+
+.img{
+	width: 200px;
+	height: 400px;
+	float: right;
+}
+.cont p{
+	width: 40%;
+}

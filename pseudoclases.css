@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    font-size: 20px;
+}
+
+.caja1{
+    height: 200px;
+    width: 200px;
+    background: white;
+    transition: all 1s;
+    color: white;
+    text-align: center;
+}
+
+.caja1:hover{
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 300px;
+    width: 300px;
+    font-size: 40px;
+    color:black;
+}
+
+/* si la página no ha sido visitada es de este color */
+.caja2:link{
+    color:black;
+}
+
+.caja3:link{
+    color: black;
+}
+
+/* si la página ya ha sido visitada es de este color */
+
+.caja2:visited{
+    color:red;
+}
+
+.caja3:visited{
+    color: red;
+}
