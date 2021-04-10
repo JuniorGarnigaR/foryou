@@ -4,8 +4,8 @@
 }
 
 .caja1{
-    height: 200px;
-    width: 200px;
+    height: 1000px;
+    width: 1000px;
     background: white;
     transition: all 1s;
     color: white;
@@ -13,6 +13,7 @@
 }
 
 .caja1:hover{
+    margin: auto;
     background: #d9a7c7;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
