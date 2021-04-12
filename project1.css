@@ -1,25 +1,81 @@
+*{
+    margin: 0;
+}
+
+
+nav{
+    background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100px;
+    z-index: 100;
+
+}
+
 .barra{
     display: inline-block;
+    position:relative;
     top: -50;
-    padding: 10px;
+    padding: 20px;
+    left: 165px;
+    top: 20px;
+}
+.curso{
+    font-size: 20px;
 }
 
 a{
     text-decoration: none;
     color:black;
+    font-size: 20px;
 }
 
 .desplegable{
+    height: 275px;
+    background-color:  #d5dbdb88 ;
     position: absolute;
-    left: -10px;
+    left: -8px;
     top: -300px;
+    z-index: 50;
+    border-radius: 2%;
+
 }
 
 .courses{
-    padding: 4px;
+    padding: 2px;
+}
 
+.a__menu{
+    font-size: 15px;
 }
 
 .div_courses:hover > .desplegable{
+    top: 25px;
+}
+
+.img{
+    z-index: 10;
+    height: 500px;
+    width: 600px;
+    object-fit: contain;
+    display: inline-block;
+    position: relative;
+}
+
+li{
+    display: inline-block;
+    position: relative;
     top: 50px;
+}
+
+.blog{
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 180px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
 }
