@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+.nav_responsive-menu{
+    display: none;
+}
+
+nav{
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav__menu i{
+    width: 30px;
+    box-sizing: border-box;
+}
+
+.nav__menu a{
+    color: black;
+}
+
+.nav__li:hover > a{
+    color: #5d6d7e  ;
+
+}
+
+.nav__li:hover > i{
+    color: #5d6d7e  ;
+
+}
+
+.responsive--menu__li{
+    padding: 12px;
+}
+
+.icono__buttom{
+    display: inline-blck;
+    width: 100%;
+}
+
+.nav_responsive-menu{
+    margin: 0px;
+}
+
+.icono__buttom > i{
+    display: block;
+    left: 80px;
+}
+
+@media only screen and (max-width: 649px){
+    .nav__menu{
+        display: none;
+    }
+    .nav_responsive-menu{
+        display: block;
+    }
+}
