@@ -1,48 +1,25 @@
-*{
-    margin: 0;
-}
-
-.menu__li{
+.barra{
     display: inline-block;
-    padding: 20px;
+    top: -50;
+    padding: 10px;
 }
 
-.menu{
-    display: inline-block;
-    position: relative;
-    left: 50px;
-}
-
-.nav{
-    background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.    1-6 */
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+,     Chrome 26+, Opera 12+, Safari 7+ */
-
-    height: 70px;
-    width: auto;
-}
-
-.links{
+a{
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color:black;
 }
 
-
-
-/* nav desplegable a menu */
-
-.menu__desplegable{
-    display: inline-block;
+.desplegable{
     position: absolute;
-    left: 450px;
+    left: -10px;
+    top: -300px;
 }
 
-.links__courses{
-    text-decoration: none;
-    color: black;
+.courses{
+    padding: 4px;
+
 }
 
-.li__desplegable{
-    padding: 5px;
+.div_courses:hover > .desplegable{
+    top: 50px;
 }
