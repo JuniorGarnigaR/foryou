@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+
+
+.li1 > .li2:hover{
+    background-color: black;    
+}
+
+/* .menu__li:hover{
+    font-size: 300px;
+} */
